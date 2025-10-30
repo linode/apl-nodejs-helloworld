@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "express": "^4.16.4"
+    "express": "^4.21.2"
   },
   "description": "Simple hello world sample in Node",
   "devDependencies": {

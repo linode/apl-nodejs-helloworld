@@ -41,9 +41,8 @@ jobs:
       - name: Login to Docker hub
         uses: docker/login-action@v3
         with:
-          registry: ${{ env.REPO }}
           username: ${{ env.DOCKER_USERNAME }}
-          password: '${{ env.DOCKER_PASSWORD }}'
+          password: ${{ env.DOCKER_PASSWORD }}
       - name: CI tests, image build and push tag for main or branch
         uses: docker/build-push-action@v6
         with:

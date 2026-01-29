@@ -1,4 +1,4 @@
-name: Build kubectl Docker Image
+name: Build and publish Docker
 
 on:
   push:

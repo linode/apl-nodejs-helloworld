@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - '**'
-    tags-ignore:
-      - '*'
+    tags:
+      - 'v*'
   workflow_dispatch:
     inputs:
       dry-run:
@@ -37,4 +37,4 @@ jobs:
           push: ${{ github.event_name == 'push' || !github.event.inputs.dry-run }}
           context: .
           tags: |
-            ${{ env.IMAGE_NAME }}:${{ env.TAG }}
+            ${{ env.IMAGE_NAME }}:${{ github.ref_name }}

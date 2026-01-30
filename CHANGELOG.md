@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/linode/apl-nodejs-helloworld/compare/v1.4.0...v1.5.0) (2026-01-30)
+
+### Features
+
+- add GitHub Actions workflow for building and publishing Docker images ([#29](https://github.com/linode/apl-nodejs-helloworld/issues/29)) ([a95c50c](https://github.com/linode/apl-nodejs-helloworld/commit/a95c50cb367e8e576853367093039e54613c1e50))
+
 ## [1.4.0](https://github.com/linode/apl-nodejs-helloworld/compare/v1.3.0...v1.4.0) (2025-12-09)
 
 ### Features

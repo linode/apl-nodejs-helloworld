@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/linode/apl-nodejs-helloworld/compare/v1.5.0...v1.5.1) (2026-01-30)
+
+### Bug Fixes
+
+- workflow ([59960a4](https://github.com/linode/apl-nodejs-helloworld/commit/59960a40290a1ccafce0680ee6a3ae2db2c62621))
+
 ## [1.5.0](https://github.com/linode/apl-nodejs-helloworld/compare/v1.4.0...v1.5.0) (2026-01-30)
 
 ### Features

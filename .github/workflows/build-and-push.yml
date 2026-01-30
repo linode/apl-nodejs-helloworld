@@ -31,10 +31,11 @@ jobs:
           username: ${{ vars.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: CI tests, image build and push tag for main or branch
+      - name: CI tests, image build and push
+        if: startsWith(github.ref, 'refs/tags/')
         uses: docker/build-push-action@v6
         with:
-          push: ${{ github.event_name == 'push' || !github.event.inputs.dry-run }}
+          push: true
           context: .
           tags: |
             ${{ env.IMAGE_NAME }}:${{ github.ref_name }}
